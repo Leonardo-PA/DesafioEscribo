@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somatório</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- O conteúdo da página está contido em um div com a classe "container" -->
+    <div class="container">
+        
+        <!-- Título principal da página -->
+        <h1>Somatório de Múltiplos de 3 ou 5</h1>
+
+        <!-- Rótulo e campo de entrada para que o usuário insira um número -->
+        <label for="numero">Escolha um número:</label>
+        <input type="number" id="numero" placeholder="Digite um número">
+
+        <!-- Parágrafo para exibir mensagens de erro, inicialmente vazio -->
+        <p id="mensagemErro" style="color: rgb(255, 0, 0);"></p> 
+
+        <!-- Botão que aciona a função 'somatorioMultiplos()' quando clicado -->
+        <button onclick="somatorioMultiplos()">Calcular</button>
+
+        <!-- Parágrafos para exibir resultados, inicialmente vazios -->
+        <p id="resultado"></p>
+        <p id="numerosDivisiveis"></p>
+    </div>
+
+    <!-- Script JavaScript que contém a lógica de cálculo e manipulação do DOM -->
+    <script src="script.js"></script>
+</body>
+</html>
