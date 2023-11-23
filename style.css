@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*Regra que aplica um reset nos estilos padrõ0es do navegador*/
+}
+  /*Estilização do corpo da pagina, deixando ele mais apresentavel*/
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* margin: 0; */
+    background-color: #fffcfc;
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  
+  /*Area separada para estilizar os espaços presentes que irão servir de interação com o ususario, no caso para que ele insira as informações do programa*/ 
+  .container {
+    text-align: center;
+    background-color: rgb(106, 43, 232);
+    border-radius: 10px;
+    padding: 2rem;
+  }
+  
+  h1 {
+    margin-bottom: 2rem;
+  }
+ 
+  /*Estiliza o campo de entrada*/
+  input  {
+    padding: 5px;
+    margin: 1rem 0 .5rem 0;
+  }
+  
+  /*Estilo para o botão de interação do usuario*/
+  button {
+    margin-left: 1rem;
+    padding: .6rem;
+    cursor: pointer;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 1.1rem;
+    transition: .3s;
+  }
+  /*Estilo de escala para quando o cursour estiver sobre o botão*/
+  button:hover {
+    transform: scale(1.1);
+  }
+  /*adiciona uma margem na parte superior dos paragrafos*/
+  p {
+    margin-top: 1.5rem;
+  }
